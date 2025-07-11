@@ -19,12 +19,56 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 
 ## 📁 File Structure
 
-```bash
-SPI-to-I2C-FIFO-Converter/
-│
-├── fifo.v                 # FIFO module for data buffering
-├── spi_to_i2c_fifo.v     # Main protocol converter module
-├── tb_spi_to_i2c_fifo.v  # Testbench to simulate the design
-├── dump.vcd              # Generated waveform file (if using GTKWave)
-├── waveform.png          # Screenshot of waveform (optional)
-└── README.md             # Project documentation
+| File / Folder            | Description                                 |
+|--------------------------|---------------------------------------------|
+| `proj.v`                 | Top-level Verilog module (SPI to I2C)       |
+| `proj_test.v`            | Testbench module                            |
+| `README.md`              | Project documentation                       |
+| `Schematic.png`          | Schematic of top-level design               |
+| `Top Level Design Module.png` | Block-level diagram                    |
+| `cadence final waveform.png` | RTL simulation waveform from Cadence   |
+| `EDA_Playground Final Waveform.jpg` | Online simulation waveform      |
+| `Gate Report.png`        | Synthesis report - gate-level view          |
+| `Power Report.png`       | Power analysis post-synthesis               |
+| `Area Report.png`        | Area utilization summary                    |
+| `Timing Report.png`      | Timing constraints & slack report           |
+
+---
+
+## 🧠 Key Features
+
+- **Protocol Conversion**: SPI data received and converted to I2C-compatible output
+- **FIFO Buffering**: Smooth transition and flow control between different clock domains
+- **Finite State Machine (FSM)**: Handles state transitions between SPI write, FIFO read, and I2C send
+- **Testbench Simulation**: Verified design across multiple test cases
+- **Cadence Reports**: Detailed gate, timing, power, and area metrics
+
+---
+
+## 📸 Visuals & Artifacts
+
+### ✅ Block Diagram
+![Top Level Module](Top%20Level%20Design%20Module.png)
+
+### ✅ Schematic
+![Schematic](Schematic.png)
+
+### ✅ Simulation Results
+- **Cadence Simulation**:
+  ![Cadence Waveform](cadence%20final%20waveform.png)
+
+- **EDA Playground Simulation**:
+  ![EDA Playground](EDA_Playground%20Final%20Waveform.jpg)
+
+---
+
+## 📊 Synthesis Reports
+
+| Report         | Image |
+|----------------|-------|
+| 🧱 **Gate Report** | ![Gate](Gate%20Report.png) |
+| ⚡ **Power Report** | ![Power](Power%20Report.png) |
+| 📐 **Area Report**  | ![Area](Area%20Report.png) |
+| ⏱️ **Timing Report** | ![Timing](Timing%20Report.png) |
+
+
