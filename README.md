@@ -21,13 +21,13 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 
 | File / Folder            | Description                                 |
 |--------------------------|---------------------------------------------|
-| `proj.v`                 | Top-level Verilog module (SPI to I2C)       |
-| `proj_test.v`            | Testbench module                            |
+| `SPI-to-I2C-FIFO-Converter-Design.v`                 | Top-level Verilog module (SPI to I2C)       |
+| `SPI-to-I2C-FIFO-Converter-Testbench.v`            | Testbench module                            |
 | `README.md`              | Project documentation                       |
 | `Schematic.png`          | Schematic of top-level design               |
 | `Top Level Design Module.png` | Block-level diagram                    |
-| `cadence final waveform.png` | RTL simulation waveform from Cadence   |
-| `EDA_Playground Final Waveform.jpg` | Online simulation waveform      |
+| `Cadence Waveform.png` | RTL simulation waveform from Cadence   |
+| `EDA_Playground Waveform.jpg` | Online simulation waveform      |
 | `Gate Report.png`        | Synthesis report - gate-level view          |
 | `Power Report.png`       | Power analysis post-synthesis               |
 | `Area Report.png`        | Area utilization summary                    |
@@ -55,7 +55,7 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 
 ### ✅ Simulation Results
 - **Cadence Simulation**:
-  ![Cadence Waveform](cadence%20final%20waveform.png)
+  ![Cadence Waveform](Cadence%20final%20waveform.png)
 
 - **EDA Playground Simulation**:
   ![EDA Playground](EDA_Playground%20Final%20Waveform.jpg)
