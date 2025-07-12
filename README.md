@@ -53,30 +53,13 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 ### ✅ Schematic
 ![Schematic](Schematic.png)
 
-## 🔍 Simulation Waveforms
+## ✅ Simulation Results
 
-### 📶 FIFO Operation
-![FIFO Operation](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/FIFO%20Waveform.png)
+### 🧪 Cadence Simulation
+![Cadence Final Waveform](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/Cadence%20final%20waveform.png)
 
-### 🔄 SPI-to-I2C Conversion Waveform
-![SPI-to-I2C Conversion](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/SPI-I2C%20Waveform.png)
-
-### 🧪 SPI Testbench Output
-![SPI TB](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/SPI%20Testbench.png)
-
-### 🧪 I2C Testbench Output
-![I2C TB](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/I2C%20Testbench.png)
-
-### 🔁 Full Design Waveform with FIFO
-![Full Design FIFO](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/Full%20Design%20Waveform.png)
-
-
-### ✅ Simulation Results
-- **Cadence Simulation**:
-  ![Image Alt Text](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/Cadence%20final%20waveform.png)
-
-- **EDA Playground Simulation**:
-  ![Image Alt Text](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/EDA_Playground%20Final%20Waveform.jpg)
+### 🧪 EDA Playground Simulation
+![EDA Playground Final Waveform](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/EDA_Playground%20Final%20Waveform.jpg)
 
 ---
 
