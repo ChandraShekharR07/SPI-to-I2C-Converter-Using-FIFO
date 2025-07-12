@@ -56,10 +56,10 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 ## ✅ Simulation Results
 
 ### 🧪 Cadence Simulation
-![Cadence Simulation](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/cadence_waveform.png)
+![Cadence Simulation](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/Cadence%20Waveform.png)
 
 ### 🧪 EDA Playground Simulation
-![EDA Playground Simulation](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/eda_waveform.jpg)
+![EDA Playground Simulation](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Waveforms/EDA_Playground%20Waveform.jpg)
 
 ---
 
