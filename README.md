@@ -71,4 +71,12 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 | 📐 **Area Report**  | ![Area](Area%20Report.png) |
 | ⏱️ **Timing Report** | ![Timing](Timing%20Report.png) |
 
+---
+
+## 🙋‍♂️ Author
+
+**Chandra Shekhar R**  
+📍 Aspiring Data Analyst | Python & SQL Enthusiast  
+🔗 [GitHub – ChandraShekharR07](https://github.com/ChandraShekharR07)  
+🔗 [LinkedIn – chandra-shekhar-r-434849287](https://www.linkedin.com/in/chandra-shekhar-r-434849287/)
 
