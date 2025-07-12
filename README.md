@@ -65,16 +65,16 @@ This project implements a **Verilog-based protocol converter** between **SPI** (
 
 ## 📊 Synthesis Reports
 
-🧱 **Gate Report**  
+🧱 **Gate Report**
 ![Image Alt Text](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Reports/Gate%20Report.png) 
 
-⚡ **Power Report** 
+⚡ **Power Report**
 ![Image Alt Text](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Reports/Power%20Report.png) 
 
-📐 **Area Report**  
+📐 **Area Report**
 ![Image Alt Text](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Reports/Area%20Report.png) 
 
-⏱️ **Timing Report** 
+⏱️ **Timing Report**
 ![Image Alt Text](https://github.com/ChandraShekharR07/SPI-to-I2C-FIFO-Converter/raw/main/Reports/Timing%20Report.png) 
 
 ---
